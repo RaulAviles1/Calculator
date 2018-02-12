@@ -1,0 +1,74 @@
+body{
+  font-family: Ubuntu;
+  background: white;
+}
+
+.calc{
+  width: 300px;
+  height: 400px;
+  background: silver;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top:5%;
+  margin-bottom: 5%;
+  border-radius: 15px;
+  box-shadow: 4px 9px 16px 0px rgba(0,0,0,0.77)
+}
+
+.title{
+ padding-top: 10px;
+ padding-bottom: 10px;
+}
+
+.display{
+  width: 85%;
+  height: 45px;
+  background: #28292B;
+  margin-left:auto;
+  margin-right:auto;
+  border: 1px solid black;
+  border-radius:6px;
+  line-height: 45px;
+}
+
+#entry{
+  color:#58FF0D;
+  margin-right: 10px;
+  font-size: 35px;
+  float: right;
+}
+
+.buttons{
+  font-size: 16px;
+  font-weight: bold;
+  position: absolute;
+  display: inline-block;
+  color: white;
+  width: 280px;
+  height: auto;
+  margin-top: 15px;
+  margin-left: 15px;
+}
+
+button {
+  border-radius: 8px;
+  border: none;
+  background-color: #3a3a3a;
+  margin: 0 4px 10px 8px;
+  height: 40px;
+  width: 50px;
+  box-shadow: 0px 3px 0px 0px #222121, inset -1px -3px 10px 1px #515151;
+}
+
+#btn-wide{
+  width:83px;
+}
+
+#btn-orange{
+  background: grey;
+  box-shadow: 0px 3px 0px 0px #222121, inset -1px -3px 10px 1px grey;
+}
+
+footer{
+  text-align: center;
+}
